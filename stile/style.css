@@ -1,0 +1,60 @@
+html, body{
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    background: url(https://www.roberthalf.com/sites/default/files/styles/full_width_content_image_1x_small_480/public/2021-04/shutterstock_412257712-2.jpg?itok=6zwcqcb5);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+#menù{
+    text-align: end;
+}
+
+
+.menù-comparsa{
+    background-color: blue;
+    color: white;
+    font-size: 2rem;
+    padding: 0 auto;
+    outline-offset: none;
+    cursor: pointer;
+}
+
+main{
+    width: 100%;
+}
+
+#contenitore-testo{
+    margin: 0 auto;
+    text-align: center;
+}
+
+#testo{
+    width: 50%;
+}
+
+
+#cosedafare{
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+}
+
+
+.cosedafare-item{
+    width: 300px;
+    font-size: 2rem;
+    padding: 10px;
+    margin: 0 auto 10px auto;
+    border:1px solid black;
+    border-radius: 50%;
+    visibility: hidden;
+}
+
+.changevisibility{
+    visibility: visible;
+}
